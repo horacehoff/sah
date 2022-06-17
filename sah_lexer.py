@@ -1,5 +1,6 @@
 import re
-def lexer(input):
+
+def lexing(input):
     is_brackets = False
     final = ""
     to_remove = []
@@ -56,4 +57,5 @@ def lexer(input):
     final = final.replace('"','')
     
     final = ' '.join(final.split())+" "
+    result = result + final
     return final
