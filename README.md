@@ -5,12 +5,12 @@
 ## Description
 A simplified version of seeing code in its overall.
 
-## The language
+## The authors
 
-👤 **sah**
-
-* Website: private (for the moment)
-* Github: [sah](https://github.com/your-github](https://github.com/just-a-mango/sah)
+- 👤 **Just_a_Mango**
+  * [Github](https://github.com/just-a-mango)
+- 👤 **Anousk**
+  * [Github](https://github.com/anousk)
 
 ## 📝 License
 
