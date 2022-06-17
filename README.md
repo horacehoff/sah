@@ -7,11 +7,11 @@ A simplified version of seeing code in its overall.
 
 ## Authors
 
-"""👤 **Your github username**
+##👤 **Your github username**##
 
-* Website: your website
-* Twitter: [@your-twitter](https://twitter.com/your-twitter)
-* Github: [@your-github](https://github.com/your-github)"""
+##* Website: your website##
+##* Twitter: [@your-twitter](https://twitter.com/your-twitter)##
+##* Github: [@your-github](https://github.com/your-github)##
 
 ## 📝 License
 
