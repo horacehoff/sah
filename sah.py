@@ -4,7 +4,7 @@ import datetime
 def readfile(filename):
     with open(filename,"r") as code:
         for line in code.readlines():
-            lexer.lexing(line)
+            print(lexer.lexing(line))
             
 first_time = datetime.datetime.now()
 readfile("tets.sah")

@@ -57,5 +57,4 @@ def lexing(input):
     final = final.replace('"','')
     
     final = ' '.join(final.split())+" "
-    result = result + final
     return final
