@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to sah an open source programming language</h1>
+<h1 align="center">Welcome to SAH</h1>
 
 <p align="center"><b><i>Did you know, sah stands for simple as hell</b></i></p>
 
