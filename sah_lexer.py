@@ -45,13 +45,11 @@ def lexing(input):
                 else:
                     if index not in to_remove:
                         final = final + c
-            else:
-                if index not in to_remove:
+            elif index not in to_remove:
                     final = final + c 
         index += 1
     # Replacing all the strings in the final with STR(string)
-    pattern = '"(.*?)"'
-    match = re.findall(pattern, final)
+    match = re.findall('"(.*?)"', final)
     for strings in match:
         final = final.replace(strings, " STR(" + strings + ") ")
     final = final.replace('"','')
