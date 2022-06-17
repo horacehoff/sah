@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to SAH</h1>
+<h1 align="center">Welcome to sah an open source programming language</h1>
 
 <p align="center"><b><i>Did you know, sah stands for simple as hell</b></i></p>
 
@@ -7,11 +7,10 @@ A simplified version of seeing code in its overall.
 
 ## Authors
 
-##👤 **Your github username**##
+👤 **sah**
 
-##* Website: your website##
-##* Twitter: [@your-twitter](https://twitter.com/your-twitter)##
-##* Github: [@your-github](https://github.com/your-github)##
+* Website: private (for the moment)
+* Github: [sah](https://github.com/your-github](https://github.com/just-a-mango/sah)
 
 ## 📝 License
 
