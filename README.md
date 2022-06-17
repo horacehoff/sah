@@ -1,6 +1,6 @@
 <h1 align="center">Welcome to SAH</h1>
 
-<p align="center"><b><i>Did you know, sah stands for simple as hell</b></i></p>
+<p align="center"><b><i>An open-source performant programming language</b></i></p>
 
 ## Description
 A simplified version of seeing code in its overall.
