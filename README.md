@@ -5,7 +5,7 @@
 ## Description
 A simplified version of seeing code in its overall.
 
-## Authors
+## The language
 
 👤 **sah**
 
