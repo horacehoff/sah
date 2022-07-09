@@ -1,3 +1,2 @@
-print{
-    dererer
-}
+a = "hello world d"
+print(a)

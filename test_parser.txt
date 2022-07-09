@@ -1,0 +1,17 @@
+print("hello world")
+
+print PARENT_START STR(hello world) PARENT_END
+
+if "print" in parsed:
+    for content  "
+
+hello world
+
+
+print(hello world hey)
+str(lexer.lexing())
+
+
+a = 5
+print("hello world" + A)
+hello world5

@@ -42,6 +42,8 @@ def lexing(input):
                     final = final + " GIVES "
                 elif c in "/":
                     final = final + " DIVIDE "
+                elif c in "*":
+                    final = final + " MULTIPLY "
                 else:
                     if index not in to_remove:
                         final = final + c
@@ -53,6 +55,27 @@ def lexing(input):
     for strings in match:
         final = final.replace(strings, " STR(" + strings + ") ")
     final = final.replace('"','')
-    
     final = ' '.join(final.split())+" "
+    nb_brackets=0
+    final = final.strip(" ") # get rid of leading/trailing seps
+
+    l=[0]
+    for i,c in enumerate(final):
+        if c=="(":
+            nb_brackets+=1
+        elif c==")":
+            nb_brackets-=1
+        elif c==" " and nb_brackets==0:
+            l.append(i)
+        # Handle string that are not well formed
+        if nb_brackets<0:
+            raise Exception("Syntax error")
+
+    l.append(len(final))
+    # Handle unclosed parentheses
+    if nb_brackets>0:
+        raise Exception("Syntax error")
+
+
+    final= [final[i:j].strip(" ") for i,j in zip(l,l[1:])]
     return final

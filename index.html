@@ -3,13 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
   <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
-<body class="bg-slate-900">
-  <h1 class="text-6xl text-white text-center font-mono font-black tracking-widest">
-    SAH
-  </h1>
-  <button class="text-white font-semibold h-12 px-6 rounded-lg w-full flex items-center justify-center sm:w-auto bg-sky-500 hover:bg-sky-400 duration-100 hover:shadow-2xl">
-    Get Started</button>
+<body class="bg-stone-900">
+  <h1 class="rellax font-mono font-black text-7xl text-slate-100 text-center mt-64 tracking-wide" data-rellax-speed="-4">SAH</h1>
+  <div class="flex flex-row justify-center items-center mt-32 gap-5 ">
+  <button class="text-white font-semibold h-12 px-6 rounded-lg items-center sm:w-auto bg-sky-500 hover:bg-sky-400 duration-75 ">🚀 Get Started</button>
+  <button class="text-slate-800 font-semibold h-12 px-6 rounded-lg items-center sm:w-auto bg-slate-200 hover:bg-white duration-100 ">GitHub</button>
+  </div>
+  <h2 class="text-white text-4xl font-bold text-center mt-96 pt-24 tracking-wide">Fast, powerful, and simple</h2>
+  <h2 class="text-white text-4xl font-bold text-center mt-14 tracking-wide">Let's see why...</h2>
+  <div class="flex flex-row justify-center items-center pt-56">
+    <h4 class="text-center text-amber-400 text-4xl font-bold mt-96 pt-12">Fast</h4>
+  </div>
 </body>
+<script>
+  AOS.init();
+  var rellax = new Rellax('.rellax');
+</script>
 </html>
